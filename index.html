@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <div class="loader"></div>
+    <div id="preloader">
+        <div class="loader"></div>
+      </div>
     <div class="container">
 
         <div class="header">
@@ -38,7 +40,7 @@
                 <h1>Hi, I'm Anis Riaz</h1>
                 <p> A passionate Frontend Web Developer with expertise in creating engaging and user-friendly web interfaces. I have hands-on experience in e-commerce, including selling on platforms like Amazon and Shopify. With skills in running Meta and TikTok ads, I bring a blend of technical and marketing expertise to every project. Let's create something amazing together!</p>
                </div>
-               <img src="./my img.jpg" width="40%" alt="logo">
+               <img src="./my img.jpg"  alt="logo">
 
             </div>
 
@@ -104,6 +106,14 @@
 
             </div>
     </div>
+
+    <script>
+        window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.getElementById("preloader").style.display = "none";
+    }, 3000); // Adjust the time (in milliseconds) for a longer delay
+  });
+      </script>
 
       
 </body>

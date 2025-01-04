@@ -336,8 +336,8 @@
     font-size: 3vw;
     width: 15vw;
     border: 2px solid white;
-    transition-duration: 15s;
-    transition-delay: 5s;
+    transition-duration: 3s;
+    /* transition-delay: 5s; */
     /* transition-timing-function: ease-in; */
     transition-property: width;
 
@@ -498,7 +498,11 @@
         width: 100%;
     }
 
-    .intro img, .web ul li img, .ecom ul li img {
+    .intro{
+        flex-direction: column-reverse;
+    }
+
+    .web ul li img, .ecom ul li img {
         width: 20vw;
         height: 20vw;
     }

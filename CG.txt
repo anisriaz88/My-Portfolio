@@ -1,0 +1,129 @@
+/* Base styles remain the same as provided */
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .nav-links li {
+        padding: 1vw;
+    }
+
+    .social-links {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro img {
+        width: 50%;
+        height: auto;
+    }
+
+    .intro-text h1 {
+        font-size: 4vw;
+    }
+
+    .intro-text p {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin: 1vw;
+        border-radius: 1vw;
+    }
+
+    .nav-links li a {
+        font-size: 4vw;
+    }
+
+    .social-links li a {
+        font-size: 3vw;
+    }
+
+    .intro img {
+        width: 60%;
+    }
+
+    .services h1,
+    .Education h1 {
+        font-size: 4vw;
+    }
+
+    .web ul,
+    .ecom ul {
+        flex-direction: column;
+        font-size: 2.5vw;
+    }
+
+    .web ul li,
+    .ecom ul li {
+        width: auto;
+        padding: 2vw;
+    }
+
+    .footer .nav ul,
+    .footer .links ul {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 50px;
+    }
+
+    .nav-links li a {
+        font-size: 5vw;
+        padding: 1vw;
+    }
+
+    .social-links li a {
+        font-size: 4vw;
+        padding: 0.5vw;
+    }
+
+    .intro img {
+        width: 80%;
+    }
+
+    .intro-text h1 {
+        font-size: 5vw;
+    }
+
+    .intro-text p {
+        font-size: 3vw;
+    }
+
+    .services h1,
+    .Education h1 {
+        font-size: 5vw;
+    }
+
+    .web ul li img,
+    .ecom ul li img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer h1 {
+        font-size: 3vw;
+    }
+
+    .footer .nav ul li,
+    .footer .links ul li {
+        padding: 1vw;
+    }
+}

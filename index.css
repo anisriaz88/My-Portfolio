@@ -433,3 +433,89 @@
 }
 
 
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .logo img {
+        width: 12vw;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .nav-links li {
+        padding: 1vw;
+    }
+
+    .social-links {
+        width: 100%;
+    }
+
+    .intro img, .web ul li img, .ecom ul li img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .intro-text h1, .services h1, .web h1, .ecom h1, .Education h1 {
+        font-size: 4vw;
+    }
+
+    .web ul, .ecom ul, .Education ul {
+        flex-direction: column;
+    }
+
+    .web ul li, .ecom ul li {
+        font-size: 3vw;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 15vw;
+    }
+
+    .nav-links li a {
+        font-size: 3vw;
+    }
+
+    .social-links li a {
+        font-size: 2.5vw;
+    }
+
+    .intro img, .web ul li img, .ecom ul li img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .intro-text h1, .services h1, .web h1, .ecom h1, .Education h1 {
+        font-size: 5vw;
+    }
+
+    .web ul li, .ecom ul li {
+        font-size: 4vw;
+        margin: 1vw;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .nav ul, .footer .links ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .nav li a, .footer .links li a {
+        font-size: 3vw;
+    }
+}
